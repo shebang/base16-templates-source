@@ -4,4 +4,5 @@ wget https://raw.githubusercontent.com/chriskempson/base16-templates-source/mast
 gsed -i 's+chriskempson/base16-shell+shebang/base16-shell+g' list.yaml
 cat >>list.yaml <<EOF
 base16-neovim-lush: https://github.com/shebang/base16-neovim-lush
+base16-powerline-go: https://github.com/shebang/base16-powerline-go
 EOF
